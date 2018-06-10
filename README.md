@@ -16,6 +16,6 @@
  - Check the email that you configured in config.emailRecipientAddress, you should have received an email.
 
 
-*Demo*:
-
- - Attached a gif demonstrating the system.
+*More work*
+- Add tests
+- Test failures and more email providers, currently only tested with gmail.
