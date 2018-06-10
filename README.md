@@ -29,4 +29,4 @@ foo@bar:~$ node client/index.js This is really funny stuff!
 
 *More work*
 - Add tests
-- Test failures and more email providers, currently only tested with gmail.
+- Test failures and more email providers, currently only tested with gmail for the happy path
