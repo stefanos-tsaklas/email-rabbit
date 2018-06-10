@@ -40,10 +40,10 @@ amqp.connect(config.amqp, (err, conn) => {
         const q = config.queue;
         channel.assertQueue(q, {durable: false});
 
-        console.log(` [*] Waiting for messages in ${q}. To exit press CTRL+C"`);
+        console.log(` [*] Waiting for messages in ${q}. To exit press CTRL+C`);
         channel.consume(q, (msg) => {
             console.log(` [X] Received ${msg.content}`);
-            setTimeout(() => sendEmail(msg), config.emailDelayMs);
+            setTimeout(() => sendEmail(msg), config.emailDelayMs || 1);
         }, {noAck: true});
     });
 });
