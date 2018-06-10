@@ -1,0 +1,12 @@
+{
+    "amqp": "amqp://localhost",
+    "queue": "email-queue",
+    "emailService": "gmail",
+    "emailServiceUsername": "",
+    "emailServicePassword": "",
+    "emailSenderAddress": "",
+    "emailReplyToAddress": "",
+    "emailRecipientAddress": "",
+    "emailSubject": "Hi!",
+    "emailDelayMs": 1
+}
