@@ -18,4 +18,4 @@
 
 *Demo*:
 
-    Attached a gif demonstrating the system.
+ - Attached a gif demonstrating the system.
