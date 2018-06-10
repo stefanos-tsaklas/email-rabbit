@@ -2,7 +2,7 @@ const amqp = require('amqplib/callback_api');
 const nodemailer = require('nodemailer');
 const config = require('../config');
 
-if (!config.emailServiceUsername || config.emailServicePassword) {
+if (!config.emailServiceUsername || !config.emailServicePassword) {
     return console.error("You must configure the email sender service first!");
 }
 
