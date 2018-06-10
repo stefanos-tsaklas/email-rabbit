@@ -1,7 +1,7 @@
 const amqplib  = require('amqplib/callback_api');
 const config = require('../config');
 
-amqplib .connect(config.amqp, function(err, connection) {
+amqplib.connect(config.amqp, function(err, connection) {
 
   if (err) {
     console.error("Error " + err.stack);
